@@ -1,5 +1,6 @@
 /* eslint-disable no-use-before-define */
-const saveBtn = document.querySelector('#addBtn');// eslint-disable-line no-unused-vars
+/* eslint-disable no-unused-vars */
+const saveBtn = document.querySelector('#addBtn');
 const bookListDiv = document.querySelector('#bookList');
 
 const addBook = () => {
@@ -11,10 +12,10 @@ const addBook = () => {
 
   bookList.push(book);
   localStorage.setItem('books', JSON.stringify(bookList));
-  dataStorage(bookList); // eslint-disable-line no-undef
-}
+  dataStorage(bookList);
+};
 
-addBtn.addEventListener('click', addBook); // eslint-disable-line no-undef
+saveBtn.addEventListener('click', addBook);
 
 const removeBook = (index) => {
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
@@ -26,8 +27,8 @@ const removeBook = (index) => {
     localStorage.setItem('books', JSON.stringify(bookList));
   }
 
-  dataStorage(bookList); // eslint-disable-line no-undef
-}
+  dataStorage(bookList);
+};
 
 const dataStorage = (listOfBooks) => {
   bookListDiv.innerHTML = '';
@@ -44,7 +45,7 @@ const dataStorage = (listOfBooks) => {
 
     removebtn.textContent = 'Remove';
     removebtn.classList.add('remove');
-    removebtn.addEventListener('click', (e) => { // eslint-disable-line no-unused-vars
+    removebtn.addEventListener('click', (e) => {
       removeBook(i);
     });
 
@@ -52,6 +53,6 @@ const dataStorage = (listOfBooks) => {
   }
 
   bookListDiv.appendChild(wrapper);
-}
+};
 
 dataStorage(JSON.parse(localStorage.getItem('books')) || []);
