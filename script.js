@@ -1,7 +1,7 @@
 /* eslint-disable no-use-before-define */
 const saveBtn = document.querySelector('#addBtn');// eslint-disable-line no-unused-vars
 const bookListDiv = document.querySelector('#bookList');
-dataStorage(JSON.parse(localStorage.getItem('books'))); // eslint-disable-line no-undef
+dataStorage(JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books')));
 function addBook() {
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
   const book = {
