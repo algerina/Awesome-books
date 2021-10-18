@@ -13,3 +13,13 @@ function addBook(){
 }
 
 addBtn.addEventListener("click", addBook);
+
+function removeBook(index) {
+  books.filter(index, 1);
+  bookList = bookList.filter(book => book === bookList[index]);
+  if (localStorage.getItem('books') === null) {
+    localStorage.setItem('books', JSON.stringify(books));
+  } else {
+    localStorage.setItem('books', JSON.stringify(books));
+  }
+}
