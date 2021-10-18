@@ -1,8 +1,8 @@
 /* eslint-disable no-use-before-define */
 const saveBtn = document.querySelector('#addBtn');// eslint-disable-line no-unused-vars
 const bookListDiv = document.querySelector('#bookList');
-dataStorage(JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books')));
-function addBook() {
+
+const addBook = () => {
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
   const book = {
     title: document.querySelector('#inputTitle').value,
@@ -16,7 +16,7 @@ function addBook() {
 
 addBtn.addEventListener('click', addBook); // eslint-disable-line no-undef
 
-function removeBook(index) {
+const removeBook = (index) => {
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
   bookList.splice(index, 1);
 
@@ -29,7 +29,7 @@ function removeBook(index) {
   dataStorage(bookList); // eslint-disable-line no-undef
 }
 
-function dataStorage(listOfBooks) {
+const dataStorage = (listOfBooks) => {
   bookListDiv.innerHTML = '';
 
   const wrapper = document.createElement('div');
@@ -53,3 +53,5 @@ function dataStorage(listOfBooks) {
 
   bookListDiv.appendChild(wrapper);
 }
+
+dataStorage(JSON.parse(localStorage.getItem('books')) || []);
