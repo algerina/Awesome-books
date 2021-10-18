@@ -1,6 +1,6 @@
 const saveBtn = document.querySelector('#addBtn');
 const bookListDiv = document.querySelector('#bookList');
-
+dataStorage(JSON.parse(localStorage.getItem('books')));  
 function addBook(){
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
   const book = {
