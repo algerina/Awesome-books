@@ -27,8 +27,8 @@ To get a local copy just download the repository ZIP, UNZIP then open the Index.
 
 👤**Yusif Badmus**
 
-- GitHub: [@Algerina](https://github.com/ybadmus)
-- LinkedIn: [@Amel Khiri](https://www.linkedin.com/in/ybadmus)
+- GitHub: [@YBadmus](https://github.com/ybadmus)
+- LinkedIn: [@Yusif Badmus](https://www.linkedin.com/in/ybadmus)
 
 
 
