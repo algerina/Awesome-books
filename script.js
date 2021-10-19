@@ -5,7 +5,7 @@ const bookListDiv = document.querySelector('#bookList');
 
 class book {
   constructor(title, author) {
-    this.title = title.value; 
+    this.title = title.value;
     this.author = author.value;
   }
 }
