@@ -3,6 +3,13 @@
 const saveBtn = document.querySelector('#addBtn');
 const bookListDiv = document.querySelector('#bookList');
 
+class book {
+  constructor(title, author) {
+    this.title = title.value; 
+    this.author = author.value;
+  }
+}
+
 const addBook = () => {
   const bookList = JSON.parse(localStorage.getItem('books')) === null ? [] : JSON.parse(localStorage.getItem('books'));
   const book = {
