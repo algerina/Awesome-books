@@ -19,7 +19,7 @@ button.remove {
   font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
-  justify-content: right;
+  justify-content: center;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   font-size: 40px;
 }
 
-.wrapper {
+ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
