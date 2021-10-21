@@ -28,12 +28,6 @@ h1 {
   font-size: 40px;
 }
 
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 #bookList {
   width: 60%;
   border: solid rgb(54, 31, 1) 2px;
