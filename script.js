@@ -3,7 +3,7 @@
 const saveBtn = document.querySelector('#addBtn');
 const bookListDiv = document.querySelector('#bookList');
 
-class book {
+class Book {
   constructor(title, author) {
     this.title = title.value;
     this.author = author.value;
@@ -16,7 +16,6 @@ const addBook = () => {
     title: document.querySelector('#inputTitle').value,
     author: document.querySelector('#inputAuthor').value,
   };
-
   bookList.push(book);
   localStorage.setItem('books', JSON.stringify(bookList));
   dataStorage(bookList);

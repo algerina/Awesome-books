@@ -1,3 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
 * {
+  margin: 4px;
+}
+
+body {
+  margin-top: 5%;
+  background-image: url("./img/old1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  color: rgb(49, 28, 1);
+}
+
+.containers {
+  text-align: center;
   margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#addBtn,
+button.remove {
+  color: rgb(49, 28, 1);
+  background-color: rgb(236, 224, 152);
+  border-color: rgb(54, 31, 1);
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(54, 31, 1);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#bookList {
+  width: 60%;
+  border: solid rgb(54, 31, 1) 4px;
+  margin: 32px 184px 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(54, 31, 1);
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 40px;
 }

@@ -1,8 +1,8 @@
 # Awesome-books
 
-> This project consists on Builting a basic website that allows users to add/remove books from a list.
+> This project consists on Building a basic website that allows users to add/remove books from a list.
 
-![screenshot](./img/screen.JPG)
+![screenshot](./img/Books.png)
 
 ## Built With
 
