@@ -14,10 +14,10 @@ body {
   color: rgb(49, 28, 1);
 }
 
-.containers {
+/* .containers {
   text-align: center;
   margin: 0;
-}
+} */
 
 .wrapper {
   display: flex;

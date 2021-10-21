@@ -67,3 +67,34 @@ addBtn.addEventListener('click', (e) => {
     title.focus();
   }
 });
+
+const bookSection = document.querySelector('.books');
+const formSection = document.querySelector('.BookForm');
+const contactSection = document.querySelector('.contact');
+const menuSection = Array.from(document.querySelector('.navList').children);
+
+function trakList(e) {
+    const targetOn = e.target;
+    const targetText = targetOn.textContent; 
+    if (targetText === 'List') {
+        bookSection.style.display = 'block';
+        formSection.style.display = none;
+        menuSection.style.display = none;
+    } else if (targetText === 'Add New') {
+            bookSection.style.display = 'none';
+            formSection.style.display = 'block';
+            menuSection.style.display = 'none';
+
+    } else if (targetText === 'Contact') {
+        bookSection.style.display = 'none';
+        formSection.style.display = 'none';
+        menuSection.style.display = 'block';
+
+}
+}
+menuSection.forEach((element) => {
+    element.addEventListener('click', trakList, false);
+
+}); 
+
+
