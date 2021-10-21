@@ -87,13 +87,13 @@ h3 {
 a {
   color: rgb(54, 31, 1);
   text-decoration: none;
- }
+}
 
- a:hover {
-  color:rgb(206, 50, 50); 
-  text-decoration:none; 
-  cursor:pointer; 
-  }
+a:hover {
+  color: rgb(206, 50, 50);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 footer {
   background-color: rgb(48, 18, 4);
