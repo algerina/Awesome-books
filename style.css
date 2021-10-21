@@ -4,11 +4,24 @@
 }
 
 body {
+  margin-top: 5%;
   background-image: url("./img/old1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   font-family: "Italianno", cursive;
+  color: rgb(49, 28, 1);
+}
+
+.containers {
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #addBtn,
@@ -30,7 +43,7 @@ h1 {
 
 #bookList {
   width: 60%;
-  border: solid rgb(54, 31, 1) 2px;
+  border: solid rgb(54, 31, 1) 4px;
   margin: 32px 184px 20px;
 }
 .text {
@@ -42,4 +55,8 @@ h2 {
   font-weight: bold;
   font-size: 30px;
   color: rgb(54, 31, 1);
+}
+h3 {
+  font-weight: bold;
+  font-size: 40px;
 }
