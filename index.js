@@ -72,23 +72,25 @@ const bookSection = document.querySelector('.books');
 const formSection = document.querySelector('.BookForm');
 const contactSection = document.querySelector('.contact');
 const menuSection = Array.from(document.querySelector('.navList').children);
+// let DateTime = luxon.DateTime.now();
+// const now = DateTime.now();
 
 function trakList(e) {
     const targetOn = e.target;
     const targetText = targetOn.textContent; 
     if (targetText === 'List') {
         bookSection.style.display = 'block';
-        formSection.style.display = none;
-        menuSection.style.display = none;
+        formSection.style.display = 'none';
+        contactSection.style.display = 'none';
     } else if (targetText === 'Add New') {
             bookSection.style.display = 'none';
             formSection.style.display = 'block';
-            menuSection.style.display = 'none';
+            contactSection.style.display = 'none';
 
     } else if (targetText === 'Contact') {
         bookSection.style.display = 'none';
         formSection.style.display = 'none';
-        menuSection.style.display = 'block';
+        contactSection.style.display = 'block';
 
 }
 }
