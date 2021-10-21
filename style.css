@@ -14,11 +14,6 @@ body {
   color: rgb(49, 28, 1);
 }
 
-/* .containers {
-  text-align: center;
-  margin: 0;
-} */
-
 .wrapper {
   display: flex;
   align-items: center;
@@ -65,12 +60,11 @@ h3 {
 }
 
 .contact {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .items {
   list-style: none;
-
 }
 
 #date {
@@ -101,19 +95,15 @@ a {
   cursor:pointer; 
   }
 
-.contact {
-  font-size: 40px;
-}
-
 footer {
   background-color: rgb(48, 18, 4);
   align-content: center;
   font-size: 30px;
   color: #e4b661;
   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .nav {
