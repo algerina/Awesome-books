@@ -72,7 +72,7 @@ const bookSection = document.querySelector('.books');
 const formSection = document.querySelector('.BookForm');
 const contactSection = document.querySelector('.contact');
 const menuSection = Array.from(document.querySelector('.navList').children);
-// let DateTime = luxon.DateTime.now();
+let DateTime = luxon.DateTime.now();
 // const now = DateTime.now();
 
 function trakList(e) {

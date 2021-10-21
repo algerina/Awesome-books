@@ -83,7 +83,19 @@ h3 {
   align-items: center;
   list-style: none;
   font-weight: bold;
+  margin: 18px;
 }
+
+a {
+  color: rgb(54, 31, 1);
+  text-decoration: none;
+ }
+
+ a:hover {
+  color:rgb(206, 50, 50); 
+  text-decoration:none; 
+  cursor:pointer; 
+  }
 
 .contact {
   font-size: 40px;
