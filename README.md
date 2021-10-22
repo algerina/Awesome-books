@@ -15,21 +15,12 @@
 
 To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
 
-## Author 1
+## Author 
 
 👤**Amel Khiri**
 
 - GitHub: [@Algerina](https://github.com/Algerina)
 - LinkedIn: [@Amel Khiri](https://linkedin.com/in/amel-khiri-qahwadji-37a550135)
-
-
-## Author 2
-
-👤**Yusif Badmus**
-
-- GitHub: [@YBadmus](https://github.com/ybadmus)
-- LinkedIn: [@Yusif Badmus](https://www.linkedin.com/in/ybadmus)
-
 
 
 ## 🤝 Contributing

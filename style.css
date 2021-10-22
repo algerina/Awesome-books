@@ -14,11 +14,6 @@ body {
   color: rgb(49, 28, 1);
 }
 
-.containers {
-  text-align: center;
-  margin: 0;
-}
-
 .wrapper {
   display: flex;
   align-items: center;
@@ -44,7 +39,6 @@ h1 {
 
 #bookList {
   width: 60%;
-  border: solid rgb(54, 31, 1) 4px;
   margin: 32px 184px 20px;
 }
 
@@ -55,11 +49,62 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: rgb(54, 31, 1);
 }
 
 h3 {
   font-weight: bold;
+  font-size: 50px;
+}
+
+.contact {
   font-size: 40px;
+}
+
+.items {
+  list-style: none;
+}
+
+#date {
+  font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  border: solid rgb(54, 31, 1) 4px;
+  text-decoration: none;
+  color: rgb(54, 31, 1);
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+  margin: 18px;
+}
+
+a {
+  color: rgb(54, 31, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(206, 50, 50);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(48, 18, 4);
+  align-content: center;
+  font-size: 30px;
+  color: #e4b661;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav {
+  display: inline;
 }

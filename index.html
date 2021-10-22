@@ -8,8 +8,18 @@
     <title>Awesome Books</title>
 </head>
 <body>
-  <main class="containers">
-    <div class="books">
+  <header>
+    <nav class="navbar">
+      <h2>Awesome Books</h2>
+      <ul class="navList">
+        <li class="nav"><a href="#books">List</a></li>
+        <li class="nav"><a href="#bookForm">Add New</a></li>
+        <li class="nav"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <p id="date"></p>
+  </header>
+    <div class="books" id="books">
     <h1>All Awesome Books</h1>
     <div id="bookList"></div>
     </div>
@@ -22,7 +32,20 @@
       <br><br>
       <button type="button" id="addBtn">submit</button>
     </form>
-    </main>
+    <div class="contact" id="contact">
+      <h2>Contact information</h2>
+      <p>Do have any questions or you just want to say "Hello!" <br>
+      You can reach out to us! </p>
+      <ul class="items">
+        <li>Our e-mail mail@gmail.com</li>
+        <li>Our phonr number: 911</li>
+        <li>Our adress: In your hearts</li>
+      </ul>
+    </div>
+    <footer>
+      <p>Copiright<a href="https://github.com/Algerina">Algerina</a></p>
+    </footer>
+    <script src="luxon.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
