@@ -29,6 +29,7 @@ button.remove {
   font-weight: bold;
   border-radius: 5px;
   justify-content: center;
+  cursor: pointer;
 }
 
 h1 {
