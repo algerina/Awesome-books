@@ -95,3 +95,7 @@ function trakList(e) {
 menuSection.forEach((element) => {
   element.addEventListener('click', trakList, false);
 });
+
+  bookSection.style.display = 'block';
+  formSection.style.display = 'none';
+  contactSection.style.display = 'none';
